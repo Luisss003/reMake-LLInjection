@@ -2,7 +2,7 @@
 #define CFG_PROCESSING_H
 
 #include <stdio.h>
-#include <cstdint>
+#include <stdint.h>
 #include <dumbnet.h> 
 
 struct config_data read_cfg(FILE *);
